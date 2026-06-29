@@ -18,7 +18,7 @@ extern "C" {
 
     // 2. The core logic that runs instantly inside your shell's RAM space
     void execute_plugin(const std::vector<std::string>& args) {
-        std::cout << "\n\033[1;32m🙏 SUCCESS: g++ cooperated perfectly!\033[0m" << std::endl;
+        std::cout << "\n\033[1;32m SUCCESS: the plugin is working correctly.\033[0m" << std::endl;
         std::cout << "The .so plugin architecture is working natively in-process." << std::endl;
 
         // Show that argument arrays are passing smoothly between the binaries
