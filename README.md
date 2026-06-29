@@ -7,7 +7,11 @@ and for those who want to compile it, I have included the makefile, but if you d
 `pacman -S make`  
 or  
 `apt install make`  
-and then inside the KRSH directory, type the `make` command.
+and then inside the KRSH directory, type the `make` command.  
+but you do also need ncurses (for the plugin menu) so to install that do  
+`pacman -S libncurses-dev`  
+or  
+`apt install libncurses-dev`  
  
 # The Plugin System
 KRSH has a built in plugin system that requires some c++ knowledge but other than that very simple.  
